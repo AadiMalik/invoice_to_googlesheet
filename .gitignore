@@ -1,0 +1,38 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*        # agar tum multiple env files use karte ho (ex: .env.production)
+
+# Laravel Mix / Vite
+/public/hot
+/public/build
+
+# Testing & Debug
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+
+# IDE / Editor settings
+/.idea
+/.vscode
+/.fleet
+
+# Homestead / Vagrant
+Homestead.json
+Homestead.yaml
+
+# Composer auth
+auth.json
+
+# Logs
+*.log
+
+# JSON secrets (General + Assets folder)
+*.json
+!/package.json
+!/composer.json
+/public/assets/*.json
+
